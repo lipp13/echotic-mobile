@@ -1,5 +1,14 @@
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
+# AI & Editor settings
+.claude/
+CLAUDE.md
+AGENTS.md
+.gemini/
+.vscode/
+.idea/
+*.swp
+
 # dependencies
 node_modules/
 
@@ -39,3 +48,4 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
